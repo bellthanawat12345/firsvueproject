@@ -1,0 +1,13 @@
+git init
+git config user.name "bellthanawat12345"
+git config credential.username "bellthanawat12345"
+
+git config --global user.email "0621517061bell@gmail.com"
+git config --global user.name "bellthanawat12345"
+
+
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin  https://github.com/bellthanawat12345/firsvueproject.git
+git push -f origin main
